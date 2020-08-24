@@ -37,7 +37,13 @@ def predict_class(data_path):
     
     result = model.predict(data)
     
-    pd.DataFrame(result, columns=['sex']).to_csv('newsample_PREDICTIONS_BernardoCassimiroFonsecadeOliveira.csv', index=False)
+    result_df = pd.DataFrame(result, columns=['sex'])
+    
+    result_df[result_df['sex'] == 1] = 'F' 
+    
+    result_df[result_df['sex'] == 0] = 'M'
+    
+    result_df.to_csv('newsample_PREDICTIONS_BernardoCassimiroFonsecadeOliveira.csv', index=False)
 
     
 parser = argparse.ArgumentParser(description='Submeta dados para o API')
