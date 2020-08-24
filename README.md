@@ -18,5 +18,5 @@ As instruções para operar a ferramenta são as seguintes:
 4) Ativar o ambiente virtual com o comando ```conda activate env_name```
 5) Instalar as bibliotecas necessárias para o funcionamento da ferramenta com o comando ```pip install -r requirements.txt```
 6) Esperar a instalação das bibliotecas necessárias
-7) Digite ```python sex_predictor.py newsample.csv```, em que "newsample.csv" é o arquivo a ser classificado
+7) Digite ```python sex_predictor.py newsample.csv```, em que "newsample.csv" é o arquivo a ser classificado (arquivo test_data_CANDIDATE.csv pode ser usado para teste)
 8) Espere o resultado da classificação e confira a saída do arquivo csv no diretório, contendo uma coluna com a classificação encontrada
