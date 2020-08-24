@@ -3,7 +3,7 @@ Autor: Bernardo Cassimiro Fonseca de Oliveira
 
 Neste diretório, é desenvolvida uma análise dos dados dentro do contexto do processo seletivo da Portal. O objetivo aqui, além da análise, é a criação de uma ferramenta de classificação de gênero baseada nesses dados.
 
-Neste repositório, existem as seguintes pastas/arquivos:
+Aqui estão presentes os seguintes arquivos/pastas:
 - Pasta "models" contendo um modelo responsável pela classificação.
 - Arquivo "Análise de dados.ipynb" contendo a análise dos dados e a comparação entre classificadores.
 - Arquivo "requirements.txt" contendo as bibliotecas necessárias para rodar a ferramenta.
